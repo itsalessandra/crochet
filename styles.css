@@ -1,0 +1,202 @@
+/* this is where your custom css lives */
+
+/* * */
+/* * */
+/* GLOBAL */
+/* * */
+/* * */
+header {
+  background-image: url('');
+  background-size: cover;
+}
+
+main {
+  display: flex;
+      display: flex;
+    min-height: 90vh;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  min-height: 90vh;
+  padding-top: 50px;
+}
+
+section {
+  background: #ffd3d3;
+  padding: 40px;
+  margin: 20px;
+  max-width: 681px;
+}
+.flex {
+  max-width: 100%;
+  display:flex;
+  flex-wrap:nowrap;
+  margin: 0;
+  padding: 10px;
+}
+.flex img{
+  width: 40vw;
+  max-width:400px;
+  padding: 10px;
+}
+
+main h {
+  color:pink
+}
+
+main p, main ul{    
+  
+
+}
+
+/* * */
+/* * */
+/* TYPOGRAPHY */
+/* * */
+/* * */
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image:url('https://cdn.glitch.global/ab89e66e-b2ad-4306-9b77-361710cb8833/Screen%20Shot%202023-05-11%20at%208.33.18%20PM.png?v=1683851983118');
+  background-attachment: fixed;
+    margin:0;
+    
+}
+h1{
+  font-family: 'Silkscreen', cursive;
+  color:#ffeeee;
+}
+
+h2 {
+  font-family: 'Silkscreen', cursive;
+}
+
+/* * */
+/* * */
+/* HEADER */
+/* * */
+/* * */
+
+nav img {
+  max-width: 70px;
+  position:relative;
+  z-index:100;
+  padding:5px;
+  background:#ff8792;
+ border-bottom-right-radius: 20px;
+}
+
+/* inital menu colors get set in menu.css */
+
+
+/* * */
+/* * */
+/* HOME PAGE */
+/* * */
+/* * */
+
+
+
+/* * */
+/* * */
+/* ABOUT PAGE */
+/* * */
+/* * */
+
+
+
+/* * */
+/* * */
+/* PAGE 3 */
+/* * */
+/* * */
+
+.menu {
+  font-size: 32px;
+}
+.brew {
+  text-align: center;
+}
+.menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1653px;
+  margin: 0 auto;
+}
+.menu-page section {
+  max-width: 500px;
+  margin: 20px;
+  width: 100%;
+  background-color: #775f55;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-img {
+  width: 100%;
+  max-height: 390px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.menu-img img {
+  width: 100%;
+}
+
+.box {
+  color: #b26565;
+  background-color: #a08673;
+  font-weight: 575;
+  font-size: 24px;
+  font-family: "Silkscreen";
+  line-height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box p {
+  margin: 0;
+}
+
+.box .hoc {
+  align-self: flex-end;
+  
+/* * */
+/* * */
+/* PAGE 4 */
+/* * */
+/* * */
+
+
+/* * */
+/* * */
+/* PAGE 5 */
+/* * */
+/* * */
+
+
+/* * */
+/* * */
+/* MEDIA QUERIES */
+
+@media(min-width:768px) {
+  h1{
+    font-size:75px 
+  }
+  
+}
+/* * */
+/* * */
+
+@media (min-width: 600px) {
+  
+  /* add your desktop-only styles here */
+  
+  
+}
